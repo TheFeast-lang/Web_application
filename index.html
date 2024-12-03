@@ -8,7 +8,17 @@
     <title>Web application</title>
 
     <style>
+     body {
+           background-color: #006400; /* Dark green background */
+           color: white; 
+        }
         
+        h2 {
+            text-align: center; /* Center the h2 text */
+            font-size: 2rem;
+            margin-top: 3rem;
+        }
+
         .full-height {
             min-height: 100vh;
             display: flex;
@@ -24,7 +34,6 @@
             flex-wrap: wrap; 
         }
 
-        
         .card {
             width: 18rem;
             margin-bottom: 20px;
@@ -36,6 +45,15 @@
             object-fit: cover;
         }
 
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
     </style>
 
 </head>
@@ -56,11 +74,10 @@
         </div>
     </nav>
 
-  
+    <h2>Our Campus Garden Location</h2>
+
     <div class="full-height">
-      
         <div class="card-row">
-            
             <div class="card">
                 <img src="./pictures/image.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -80,7 +97,7 @@
             </div>
 
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="./pictures/image3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Proper way to water the plant</h5>
                     <p class="card-text">Find out the correct techniques for watering your plants.</p>
